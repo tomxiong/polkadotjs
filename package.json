@@ -1,0 +1,22 @@
+{
+    "name": "js-component",
+    "version": "0.0.1",
+    "description": "Demo connectiong to substrate node",
+    "main": "index.js",
+    "author": "tom xiong",
+    "license": "Unlicense",
+    "private": false,
+    "scripts": {
+        "start": "node --use_strict index.ts",
+        "start:dev": "nodemon --use_strict --inspect index.ts",
+        "start:debug": "nodemon --use_strict --inspect --debug index.ts"
+    },
+    "dependencies": {
+        "@polkadot/api": "^9.0.1",
+        "@polkadot/types": "^7.8.1",
+        "web3": "^1.5.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
